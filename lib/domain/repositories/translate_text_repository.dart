@@ -7,8 +7,8 @@ abstract class TranslateTextRepository {
 
 class TranslateParams {
   final String text;
-  final TranslateLanguage sourceLanguage;
-  final TranslateLanguage targetLanguage;
+  final Language sourceLanguage;
+  final Language targetLanguage;
 
   TranslateParams({
     required this.text,
