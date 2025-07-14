@@ -1,12 +1,12 @@
 class TranslateTextEntity {
-  final String text;
-  final String sourceLanguage;
-  final String targetLanguage;
+   String? text;
+   String? sourceLanguage;
+   String? targetLanguage;
 
   TranslateTextEntity({
-    required this.text,
-    required this.sourceLanguage,
-    required this.targetLanguage,
+     this.text,
+     this.sourceLanguage,
+     this.targetLanguage,
   });
 
   @override
